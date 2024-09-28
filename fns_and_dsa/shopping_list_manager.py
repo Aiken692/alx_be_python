@@ -1,8 +1,12 @@
 # shopping_list_manager.py
 
 def display_menu():
-    # Combine all menu options into one print statement for checker compatibility
-    print(f"Shopping List Manager\n1. Add Item\n2. Remove Item\n3. View List\n4. Exit")
+    # Ensure the print statements match the required format exactly
+    print("Shopping List Manager")
+    print("1. Add Item")
+    print("2. Remove Item")
+    print("3. View List")
+    print("4. Exit")
 
 def main():
     shopping_list = []
