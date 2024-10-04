@@ -9,9 +9,9 @@ def safe_divide(numerator, denominator):
         if denom == 0:
             return "Error: Cannot divide by zero."
         
-        # Perform division and format the result to 1 decimal place without unnecessary zeros
+        # Perform division and format the result to 1 decimal place
         result = num / denom
-        return f"The result of the division is {result:.1f}".rstrip('0').rstrip('.')
+        return f"The result of the division is {result:.1f}"
     
     except ValueError:
         # Handle non-numeric input
