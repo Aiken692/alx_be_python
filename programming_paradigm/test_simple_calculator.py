@@ -7,8 +7,8 @@ class TestSimpleCalculator(unittest.TestCase):
         """Set up the SimpleCalculator instance before each test."""
         self.calc = SimpleCalculator()
 
-    # Test for addition
-    def test_add(self):
+    # Corrected: Test for addition (renamed to test_addition)
+    def test_addition(self):
         self.assertEqual(self.calc.add(2, 3), 5)
         self.assertEqual(self.calc.add(-1, 1), 0)
         self.assertEqual(self.calc.add(-5, -7), -12)
